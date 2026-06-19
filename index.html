@@ -149,7 +149,7 @@
 
     .hero-title {
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(3.6rem, 9vw, 7rem);
+      font-size: clamp(2.4rem, 8vw, 7rem);
       font-weight: 300;
       line-height: 1.05;
       letter-spacing: 0.06em;
@@ -172,9 +172,10 @@
 
     .hero-ctas {
       display: flex;
-      gap: 1.2rem;
+      gap: 1rem;
       justify-content: center;
       flex-wrap: wrap;
+      padding: 0 1rem;
     }
 
     .btn-primary {
@@ -184,7 +185,7 @@
       font-weight: 600;
       color: var(--navy);
       background: var(--gold);
-      padding: 1rem 2.4rem;
+      padding: 0.9rem 1.8rem;
       border-radius: 2px;
       text-decoration: none;
       transition: background 0.25s, transform 0.2s;
@@ -198,7 +199,7 @@
       font-weight: 500;
       color: var(--white);
       border: 1px solid rgba(255,255,255,0.5);
-      padding: 1rem 2.4rem;
+      padding: 0.9rem 1.8rem;
       border-radius: 2px;
       text-decoration: none;
       transition: border-color 0.25s, color 0.25s, transform 0.2s;
@@ -494,6 +495,8 @@
     .gallery-item {
       overflow: hidden;
       position: relative;
+      background: #0f1c28;
+      min-height: 200px;
     }
     .gallery-item img {
       width: 100%;
@@ -1159,23 +1162,23 @@
 <div id="gallery">
   <div class="gallery-grid">
     <div class="gallery-item span2">
-      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1000&q=80" alt="Paella Xaloc" />
+      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1000&q=80&auto=format&fit=crop" alt="Paella Xaloc" loading="lazy" />
       <div class="gallery-overlay"></div>
     </div>
     <div class="gallery-item row2">
-      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=700&q=80" alt="Carnes a la brasa" />
+      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=700&q=80&auto=format&fit=crop" alt="Carnes a la brasa" loading="lazy" />
       <div class="gallery-overlay"></div>
     </div>
     <div class="gallery-item">
-      <img src="https://images.unsplash.com/photo-1551183053-bf91798d3e33?w=700&q=80" alt="Mariscos frescos" />
+      <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=700&q=80&auto=format&fit=crop" alt="Mariscos frescos" loading="lazy" />
       <div class="gallery-overlay"></div>
     </div>
     <div class="gallery-item">
-      <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=700&q=80" alt="Interior restaurante" />
+      <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=700&q=80&auto=format&fit=crop" alt="Interior restaurante" loading="lazy" />
       <div class="gallery-overlay"></div>
     </div>
     <div class="gallery-item">
-      <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=700&q=80" alt="Postres" />
+      <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=700&q=80&auto=format&fit=crop" alt="Postres" loading="lazy" />
       <div class="gallery-overlay"></div>
     </div>
   </div>
@@ -1275,7 +1278,7 @@
 <!-- ── MAP ── -->
 <div id="map-section">
   <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.5!2d2.502!3d39.523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297898fc0fd7779%3A0xd783309e87aa7781!2sRestaurante%20xaloc!5e0!3m2!1ses!2ses!4v1718736000000!5m2!1ses!2ses"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.4!2d2.4897!3d39.5104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297898fc0fd7779%3Ad783309e87aa7781!2sRestaurante%20xaloc%2C%20Carrer%20de%20Ramon%20de%20Montcada%2C%20Santa%20Ponsa!5e0!3m2!1ses!2ses!4v1718736000000!5m2!1ses!2ses"
     allowfullscreen=""
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
